@@ -1,0 +1,25 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://data.vlaanderen.be/.well-known/genid/OVO003881-oprichting>
+    <http://mu.semte.ch/vocabularies/core/uuid> "OVO003881-oprichting" ;
+    <http://purl.org/dc/terms/date> "2000-02-04" ;
+    a <http://data.europa.eu/m8g/FoundationEvent>, <http://www.w3.org/ns/org#changeEvent>, <https://data.vlaanderen.be/ns/organisatie#Oprichting> .
+
+<https://data.vlaanderen.be/doc/organisatie/OVO003881>
+    <http://purl.org/dc/terms/issued> "2024-08-12T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://xmlns.com/foaf/0.1/primaryTopic> <https://data.vlaanderen.be/id/organisatie/OVO003881> .
+
+<https://data.vlaanderen.be/id/concept/organisatiestatus/actief>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "actief" .
+
+<https://data.vlaanderen.be/id/organisatie/OVO003881>
+    <http://mu.semte.ch/vocabularies/core/uuid> "OVO003881" ;
+    a <http://www.w3.org/ns/org#Organization>, <http://xmlns.com/foaf/0.1/Agent> ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://wegwijs.vlaanderen.be/#/organisations/549a3aa8-2330-78a6-9a05-c23b528a108f> ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "FAVV" ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Federaal Agentschap voor de Veiligheid van de Voedselketen" ;
+    <http://www.w3.org/ns/org#changedBy> <https://data.vlaanderen.be/.well-known/genid/OVO003881-oprichting> ;
+    <http://www.w3.org/ns/org#identifier> "OVO003881" ;
+    <http://www.w3.org/ns/regorg#orgStatus> <https://data.vlaanderen.be/id/concept/organisatiestatus/actief> ;
+    <http://xmlns.com/foaf/0.1/homepage> <https://favv-afsca.be/> .
+

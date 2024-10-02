@@ -1,0 +1,267 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://data.vlaanderen.be/.well-known/genid/OVO000093-oprichting>
+    <http://mu.semte.ch/vocabularies/core/uuid> "OVO000093-oprichting" ;
+    <http://purl.org/dc/terms/date> "2001-07-01" ;
+    a <http://data.europa.eu/m8g/FoundationEvent>, <http://www.w3.org/ns/org#changeEvent>, <https://data.vlaanderen.be/ns/organisatie#Oprichting> .
+
+<https://data.vlaanderen.be/.well-known/genid/contact-205b339c-bbed-46f0-aa2f-91a490d3011e>
+    <http://mu.semte.ch/vocabularies/core/label> "Telefoon 1700" ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "205b339c-bbed-46f0-aa2f-91a490d3011e" ;
+    <http://schema.org/telephone> "1700" ;
+    a <http://schema.org/ContactPoint> .
+
+<https://data.vlaanderen.be/.well-known/genid/contact-385a6d8e-d5e4-4bc5-b062-b7ccaf098051>
+    <http://mu.semte.ch/vocabularies/core/label> " https://www.vreg.be" ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "385a6d8e-d5e4-4bc5-b062-b7ccaf098051" ;
+    a <http://schema.org/ContactPoint> ;
+    <http://xmlns.com/foaf/0.1/page> "https://www.vreg.be" .
+
+<https://data.vlaanderen.be/.well-known/genid/contact-c888ba3e-bdea-45e6-a140-dbab4aa4a7d7>
+    <http://mu.semte.ch/vocabularies/core/label> "Fax 02 553 13 50" ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "c888ba3e-bdea-45e6-a140-dbab4aa4a7d7" ;
+    <http://schema.org/faxNumber> "02 553 13 50" ;
+    a <http://schema.org/ContactPoint> .
+
+<https://data.vlaanderen.be/.well-known/genid/contact-f0f09da5-5c36-4734-bb4a-ead1543e3648>
+    <http://mu.semte.ch/vocabularies/core/label> "E-mail info@vreg.be" ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "f0f09da5-5c36-4734-bb4a-ead1543e3648" ;
+    <http://schema.org/email> "info@vreg.be" ;
+    a <http://schema.org/ContactPoint> .
+
+<https://data.vlaanderen.be/.well-known/genid/hoedanigheid-0ebba2d9-a11e-c6b5-69dc-f3d3e338352f>
+    <http://mu.semte.ch/vocabularies/core/label> "Contactpersoon Wegwijs Organisatie - Van Lierde Cindy" ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "0ebba2d9-a11e-c6b5-69dc-f3d3e338352f" ;
+    <http://schema.org/contactPoint> <https://data.vlaanderen.be/.well-known/genid/contact-8d60e803060ecd4beea2b224a9898c4a7aebd728> ;
+    a <http://purl.org/dc/terms/Agent>, <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid> ;
+    <http://www.w3.org/ns/org#memberOf> <https://data.vlaanderen.be/id/organisatie/OVO000093> ;
+    <http://www.w3.org/ns/org#role> <https://data.vlaanderen.be/id/concept/hoedanigheid/850160fb-004c-491c-a535-14325cf6a746> ;
+    <http://xmlns.com/foaf/0.1/name> "Van Lierde Cindy" .
+
+<https://data.vlaanderen.be/.well-known/genid/hoedanigheid-19ba0bfc-9ffe-4ada-1b7d-09bf8f316f9a>
+    <http://mu.semte.ch/vocabularies/core/label> "Informatiebeheerder/archivaris - Verboven Ruben" ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "19ba0bfc-9ffe-4ada-1b7d-09bf8f316f9a" ;
+    <http://schema.org/contactPoint> <https://data.vlaanderen.be/.well-known/genid/contact-de14c9b65e1114f67252bc45c1c141d1cabf16ae> ;
+    a <http://purl.org/dc/terms/Agent>, <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid> ;
+    <http://www.w3.org/ns/org#memberOf> <https://data.vlaanderen.be/id/organisatie/OVO000093> ;
+    <http://www.w3.org/ns/org#role> <https://data.vlaanderen.be/id/concept/hoedanigheid/a3520cb5-a1c0-33a5-3cef-4d4bb890fc7d> ;
+    <http://xmlns.com/foaf/0.1/name> "Verboven Ruben" .
+
+<https://data.vlaanderen.be/.well-known/genid/hoedanigheid-1ce02dfa-63d8-1e74-efc4-9ebd32a4d004>
+    <http://mu.semte.ch/vocabularies/core/label> "Contactpersoon Deugdelijk Bestuur - Renier Pieterjan" ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "1ce02dfa-63d8-1e74-efc4-9ebd32a4d004" ;
+    <http://schema.org/contactPoint> <https://data.vlaanderen.be/.well-known/genid/contact-f347584c057b7e1708232c5cd8926c0bdbf896b3> ;
+    a <http://purl.org/dc/terms/Agent>, <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid> ;
+    <http://www.w3.org/ns/org#memberOf> <https://data.vlaanderen.be/id/organisatie/OVO000093> ;
+    <http://www.w3.org/ns/org#role> <https://data.vlaanderen.be/id/concept/hoedanigheid/f41bc4a3-afc3-5754-c8fa-f9a938a48d88> ;
+    <http://xmlns.com/foaf/0.1/name> "Renier Pieterjan" .
+
+<https://data.vlaanderen.be/.well-known/genid/hoedanigheid-46383bef-0d8f-256c-7dda-96b89c6167d6>
+    <http://mu.semte.ch/vocabularies/core/label> "Accountmanager bij financiën en begroting - Verschuere Willy" ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "46383bef-0d8f-256c-7dda-96b89c6167d6" ;
+    <http://schema.org/contactPoint> <https://data.vlaanderen.be/.well-known/genid/contact-9b897233cfb13ea3d176315599b5882434772a07> ;
+    a <http://purl.org/dc/terms/Agent>, <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid> ;
+    <http://www.w3.org/ns/org#memberOf> <https://data.vlaanderen.be/id/organisatie/OVO000093> ;
+    <http://www.w3.org/ns/org#role> <https://data.vlaanderen.be/id/concept/hoedanigheid/8ce75cac-0df4-bf72-5392-2841e8207365> ;
+    <http://xmlns.com/foaf/0.1/name> "Verschuere Willy" .
+
+<https://data.vlaanderen.be/.well-known/genid/hoedanigheid-557c5180-e57e-1823-79d1-331a0b488351>
+    <http://mu.semte.ch/vocabularies/core/label> "Contactpersoon arbeidsreglement - Borrey Ingrid" ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "557c5180-e57e-1823-79d1-331a0b488351" ;
+    <http://schema.org/contactPoint> <https://data.vlaanderen.be/.well-known/genid/contact-41d5f4c3d07c67c2424725c4cae09f92a84fbf65> ;
+    a <http://purl.org/dc/terms/Agent>, <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid> ;
+    <http://www.w3.org/ns/org#memberOf> <https://data.vlaanderen.be/id/organisatie/OVO000093> ;
+    <http://www.w3.org/ns/org#role> <https://data.vlaanderen.be/id/concept/hoedanigheid/e143e750-1aba-c852-b3f1-5825ca9aecef> ;
+    <http://xmlns.com/foaf/0.1/name> "Borrey Ingrid" .
+
+<https://data.vlaanderen.be/.well-known/genid/hoedanigheid-6c0dcdfe-d2e6-6ff1-7fb2-7864abd73a50>
+    <http://mu.semte.ch/vocabularies/core/label> "Revisor - Remmery Filip" ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "6c0dcdfe-d2e6-6ff1-7fb2-7864abd73a50" ;
+    <http://schema.org/contactPoint> <https://data.vlaanderen.be/.well-known/genid/contact-74abc15922fc351041ce005841d6b46bfa164e97> ;
+    a <http://purl.org/dc/terms/Agent>, <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid> ;
+    <http://www.w3.org/ns/org#memberOf> <https://data.vlaanderen.be/id/organisatie/OVO000093> ;
+    <http://www.w3.org/ns/org#role> <https://data.vlaanderen.be/id/concept/hoedanigheid/c50eb4f7-e232-6645-690b-54f355728653> ;
+    <http://xmlns.com/foaf/0.1/name> "Remmery Filip" .
+
+<https://data.vlaanderen.be/.well-known/genid/hoedanigheid-744881e9-ec47-4ef7-8bfb-6a7d75ad116a>
+    <http://mu.semte.ch/vocabularies/core/label> "Contactpersoon integriteit - " ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "744881e9-ec47-4ef7-8bfb-6a7d75ad116a" ;
+    <http://schema.org/contactPoint> <https://data.vlaanderen.be/.well-known/genid/contact-686ae0034429bd59b0c682ec29dcc90876483202>, <https://data.vlaanderen.be/.well-known/genid/contact-7bdf52d0a4659010f71edf798446e31c2f9c2bf4>, <https://data.vlaanderen.be/.well-known/genid/contact-a405ce1ea06e3c84d1c046429e788a091359e40f> ;
+    a <http://purl.org/dc/terms/Agent>, <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid> ;
+    <http://www.w3.org/ns/org#memberOf> <https://data.vlaanderen.be/id/organisatie/OVO000093> ;
+    <http://www.w3.org/ns/org#role> <https://data.vlaanderen.be/id/concept/hoedanigheid/5c8acfed-eef1-499b-a7f9-37d85c293977> .
+
+<https://data.vlaanderen.be/.well-known/genid/hoedanigheid-7edd9eed-8035-87a8-0b4e-dce721c8806f>
+    <http://mu.semte.ch/vocabularies/core/label> "Leidinggevende topkader - Renier Pieterjan" ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "7edd9eed-8035-87a8-0b4e-dce721c8806f" ;
+    <http://schema.org/contactPoint> <https://data.vlaanderen.be/.well-known/genid/contact-65b03f46a8471551654a8225f96a2cb4b6650254> ;
+    a <http://purl.org/dc/terms/Agent>, <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid> ;
+    <http://www.w3.org/ns/org#memberOf> <https://data.vlaanderen.be/id/organisatie/OVO000093> ;
+    <http://www.w3.org/ns/org#role> <https://data.vlaanderen.be/id/concept/hoedanigheid/6026a091-d8d8-4efa-ba40-46f535b552f5> ;
+    <http://xmlns.com/foaf/0.1/name> "Renier Pieterjan" .
+
+<https://data.vlaanderen.be/.well-known/genid/hoedanigheid-901a499c-0282-da1e-f528-2a7aa3cd66db>
+    <http://mu.semte.ch/vocabularies/core/label> "Contactpersoon Wegwijs Organisatie - Van Kerckhoven Sarah" ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "901a499c-0282-da1e-f528-2a7aa3cd66db" ;
+    <http://schema.org/contactPoint> <https://data.vlaanderen.be/.well-known/genid/contact-202b96e3ed5aa7be1c1696496e04c9a7db5c26d4>, <https://data.vlaanderen.be/.well-known/genid/contact-27edb76fd5d349c992b37b1f3b5b918406818665>, <https://data.vlaanderen.be/.well-known/genid/contact-d278ed2a1b1bdf9f82c3f28c93230fa451eaa88> ;
+    a <http://purl.org/dc/terms/Agent>, <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid> ;
+    <http://www.w3.org/ns/org#memberOf> <https://data.vlaanderen.be/id/organisatie/OVO000093> ;
+    <http://www.w3.org/ns/org#role> <https://data.vlaanderen.be/id/concept/hoedanigheid/850160fb-004c-491c-a535-14325cf6a746> ;
+    <http://xmlns.com/foaf/0.1/name> "Van Kerckhoven Sarah" .
+
+<https://data.vlaanderen.be/.well-known/genid/hoedanigheid-9920100e-6663-35b1-4b0f-112ea77e7f35>
+    <http://mu.semte.ch/vocabularies/core/label> "HR business partner - Verboven Ruben" ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "9920100e-6663-35b1-4b0f-112ea77e7f35" ;
+    <http://schema.org/contactPoint> <https://data.vlaanderen.be/.well-known/genid/contact-8c31d31cb0840ecedbb7782328a5230d61239f87> ;
+    a <http://purl.org/dc/terms/Agent>, <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid> ;
+    <http://www.w3.org/ns/org#memberOf> <https://data.vlaanderen.be/id/organisatie/OVO000093> ;
+    <http://www.w3.org/ns/org#role> <https://data.vlaanderen.be/id/concept/hoedanigheid/fc85a4c1-3234-4ad6-f683-dc6ad2cc249f> ;
+    <http://xmlns.com/foaf/0.1/name> "Verboven Ruben" .
+
+<https://data.vlaanderen.be/.well-known/genid/hoedanigheid-a591dab8-055e-4ba9-9681-1252414e1224>
+    <http://mu.semte.ch/vocabularies/core/label> "Gemachtigde van financiën - Verboven Ruben" ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "a591dab8-055e-4ba9-9681-1252414e1224" ;
+    <http://schema.org/contactPoint> <https://data.vlaanderen.be/.well-known/genid/contact-3b2c07fc26f7b05dd405480785ca86f12a97b01b>, <https://data.vlaanderen.be/.well-known/genid/contact-e8b02a2e414c9c257622affb5500c50626ef67a8> ;
+    a <http://purl.org/dc/terms/Agent>, <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid> ;
+    <http://www.w3.org/ns/org#memberOf> <https://data.vlaanderen.be/id/organisatie/OVO000093> ;
+    <http://www.w3.org/ns/org#role> <https://data.vlaanderen.be/id/concept/hoedanigheid/a50eedfe-43df-4892-8d9f-7066e67994ef> ;
+    <http://xmlns.com/foaf/0.1/name> "Verboven Ruben" .
+
+<https://data.vlaanderen.be/.well-known/genid/hoedanigheid-c1f7a152-85aa-432d-b773-4ed74225baf9>
+    <http://mu.semte.ch/vocabularies/core/label> "Actieve vertrouwenspersonen van bij GDPB aangesloten entiteiten - Borrey Ingrid" ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "c1f7a152-85aa-432d-b773-4ed74225baf9" ;
+    <http://schema.org/contactPoint> <https://data.vlaanderen.be/.well-known/genid/contact-da6ab525cebaf09f106005f8bedf35b8bf2bca9d>, <https://data.vlaanderen.be/.well-known/genid/contact-e23051eb455f2680f83d66d2f6eee8fc1bfe0845> ;
+    a <http://purl.org/dc/terms/Agent>, <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid> ;
+    <http://www.w3.org/ns/org#memberOf> <https://data.vlaanderen.be/id/organisatie/OVO000093> ;
+    <http://www.w3.org/ns/org#role> <https://data.vlaanderen.be/id/concept/hoedanigheid/c2d12606-e666-4b1c-9de8-1900e7be862d> ;
+    <http://xmlns.com/foaf/0.1/name> "Borrey Ingrid" .
+
+<https://data.vlaanderen.be/.well-known/genid/hoedanigheid-eb3d112c-749c-6790-b914-3dee3148b834>
+    <http://mu.semte.ch/vocabularies/core/label> "Contactpersoon boekhouding - Verboven Ruben" ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "eb3d112c-749c-6790-b914-3dee3148b834" ;
+    <http://schema.org/contactPoint> <https://data.vlaanderen.be/.well-known/genid/contact-d1e786ba7ae4b47578ab52178f3b3e9e182f0d2d> ;
+    a <http://purl.org/dc/terms/Agent>, <https://data.vlaanderen.be/ns/organisatie#Hoedanigheid> ;
+    <http://www.w3.org/ns/org#memberOf> <https://data.vlaanderen.be/id/organisatie/OVO000093> ;
+    <http://www.w3.org/ns/org#role> <https://data.vlaanderen.be/id/concept/hoedanigheid/06d83d87-b556-1f62-ab70-368453ebd78a> ;
+    <http://xmlns.com/foaf/0.1/name> "Verboven Ruben" .
+
+<https://data.vlaanderen.be/doc/organisatie/OVO000093>
+    <http://purl.org/dc/terms/issued> "2024-10-02T10:06:34Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://xmlns.com/foaf/0.1/primaryTopic> <https://data.vlaanderen.be/id/organisatie/OVO000093> .
+
+<https://data.vlaanderen.be/id/concept/hoedanigheid/06d83d87-b556-1f62-ab70-368453ebd78a>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Contactpersoon boekhouding" .
+
+<https://data.vlaanderen.be/id/concept/hoedanigheid/5c8acfed-eef1-499b-a7f9-37d85c293977>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Contactpersoon integriteit" .
+
+<https://data.vlaanderen.be/id/concept/hoedanigheid/6026a091-d8d8-4efa-ba40-46f535b552f5>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Leidinggevende topkader" .
+
+<https://data.vlaanderen.be/id/concept/hoedanigheid/850160fb-004c-491c-a535-14325cf6a746>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Contactpersoon Wegwijs Organisatie" .
+
+<https://data.vlaanderen.be/id/concept/hoedanigheid/8ce75cac-0df4-bf72-5392-2841e8207365>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Accountmanager bij financiën en begroting" .
+
+<https://data.vlaanderen.be/id/concept/hoedanigheid/a3520cb5-a1c0-33a5-3cef-4d4bb890fc7d>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Informatiebeheerder/archivaris" .
+
+<https://data.vlaanderen.be/id/concept/hoedanigheid/a50eedfe-43df-4892-8d9f-7066e67994ef>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Gemachtigde van financiën" .
+
+<https://data.vlaanderen.be/id/concept/hoedanigheid/c2d12606-e666-4b1c-9de8-1900e7be862d>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Actieve vertrouwenspersonen van bij GDPB aangesloten entiteiten" .
+
+<https://data.vlaanderen.be/id/concept/hoedanigheid/c50eb4f7-e232-6645-690b-54f355728653>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Revisor" .
+
+<https://data.vlaanderen.be/id/concept/hoedanigheid/e143e750-1aba-c852-b3f1-5825ca9aecef>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Contactpersoon arbeidsreglement" .
+
+<https://data.vlaanderen.be/id/concept/hoedanigheid/f41bc4a3-afc3-5754-c8fa-f9a938a48d88>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Contactpersoon Deugdelijk Bestuur" .
+
+<https://data.vlaanderen.be/id/concept/hoedanigheid/fc85a4c1-3234-4ad6-f683-dc6ad2cc249f>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "HR business partner" .
+
+<https://data.vlaanderen.be/id/concept/organisatieclassificatie/274c600f-c842-4eb2-8d1d-c2202cad8bd5>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Entiteit" .
+
+<https://data.vlaanderen.be/id/concept/organisatieclassificatie/3113cc21-ec63-2084-9e72-7864b54df472>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "VG" .
+
+<https://data.vlaanderen.be/id/concept/organisatieclassificatie/56bb64c0-e2cd-6e96-66e6-9c71ae676b13>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Overheid van het Vlaamse Gewest en van de Vlaamse Gemeenschap" .
+
+<https://data.vlaanderen.be/id/concept/organisatieclassificatie/752421a0-62fa-d256-7ef9-32bee7c7444b>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Bart Tommelein" .
+
+<https://data.vlaanderen.be/id/concept/organisatieclassificatie/86361ed1-af3f-4ea8-993e-4d29ff9acb22>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Autonome dienst met rechtspersoonlijkheid" .
+
+<https://data.vlaanderen.be/id/concept/organisatieclassificatie/910ac876-9de8-ce89-b0c4-1ade8e55a3d2>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "1312" .
+
+<https://data.vlaanderen.be/id/concept/organisatieclassificatie/96f5bcf2-b1e3-40f6-a9f4-630282d21e30>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Overheid van het Vlaamse Gewest en van de Vlaamse Gemeenschap" .
+
+<https://data.vlaanderen.be/id/concept/organisatieclassificatie/9a6fa838-e4e9-8f03-66c4-8e38a269af0e>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vlaamse overheid" .
+
+<https://data.vlaanderen.be/id/concept/organisatieclassificatie/9b2d3a02-a5dd-e51f-9ade-aef76a1a91c1>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Wetgevende lichamen" .
+
+<https://data.vlaanderen.be/id/concept/organisatieclassificatie/b2826c5e-76c7-76e2-8a7a-1bb0b2ce5442>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "S1312" .
+
+<https://data.vlaanderen.be/id/concept/organisatieclassificatie/bbf58f9f-7fc9-4918-a567-6d0ae88760c5>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Extern verzelfstandigd agentschap (EVA) van publiek recht" .
+
+<https://data.vlaanderen.be/id/concept/organisatieclassificatie/cd5e6bba-d0d6-68cc-2e9e-8e4bd9a3ed07>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "VCO art. 4 §2 - autonome parlementaire diensten" .
+
+<https://data.vlaanderen.be/id/concept/organisatieclassificatie/e1222aec-b449-7c5e-c74a-eca22da38f1c>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Nee" .
+
+<https://data.vlaanderen.be/id/concept/organisatiestatus/actief>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "actief" .
+
+<https://data.vlaanderen.be/id/organisatie/OVO000093>
+    <http://mu.semte.ch/vocabularies/core/uuid> "OVO000093" ;
+    <http://schema.org/contactPoint> <https://data.vlaanderen.be/.well-known/genid/contact-205b339c-bbed-46f0-aa2f-91a490d3011e>, <https://data.vlaanderen.be/.well-known/genid/contact-385a6d8e-d5e4-4bc5-b062-b7ccaf098051>, <https://data.vlaanderen.be/.well-known/genid/contact-c888ba3e-bdea-45e6-a140-dbab4aa4a7d7>, <https://data.vlaanderen.be/.well-known/genid/contact-f0f09da5-5c36-4734-bb4a-ead1543e3648> ;
+    a <http://www.w3.org/ns/org#Organization>, <http://xmlns.com/foaf/0.1/Agent> ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://wegwijs.vlaanderen.be/#/organisations/06903412-3402-4279-a675-c4e72d4f2756> ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "VREG" ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Vlaamse Regulator van de Elektriciteits- en Gasmarkt" ;
+    <http://www.w3.org/ns/org#changedBy> <https://data.vlaanderen.be/.well-known/genid/OVO000093-oprichting> ;
+    <http://www.w3.org/ns/org#classification> <https://data.vlaanderen.be/id/concept/organisatieclassificatie/274c600f-c842-4eb2-8d1d-c2202cad8bd5>, <https://data.vlaanderen.be/id/concept/organisatieclassificatie/3113cc21-ec63-2084-9e72-7864b54df472>, <https://data.vlaanderen.be/id/concept/organisatieclassificatie/56bb64c0-e2cd-6e96-66e6-9c71ae676b13>, <https://data.vlaanderen.be/id/concept/organisatieclassificatie/752421a0-62fa-d256-7ef9-32bee7c7444b>, <https://data.vlaanderen.be/id/concept/organisatieclassificatie/86361ed1-af3f-4ea8-993e-4d29ff9acb22>, <https://data.vlaanderen.be/id/concept/organisatieclassificatie/910ac876-9de8-ce89-b0c4-1ade8e55a3d2>, <https://data.vlaanderen.be/id/concept/organisatieclassificatie/96f5bcf2-b1e3-40f6-a9f4-630282d21e30>, <https://data.vlaanderen.be/id/concept/organisatieclassificatie/9a6fa838-e4e9-8f03-66c4-8e38a269af0e>, <https://data.vlaanderen.be/id/concept/organisatieclassificatie/9b2d3a02-a5dd-e51f-9ade-aef76a1a91c1>, <https://data.vlaanderen.be/id/concept/organisatieclassificatie/b2826c5e-76c7-76e2-8a7a-1bb0b2ce5442>, <https://data.vlaanderen.be/id/concept/organisatieclassificatie/bbf58f9f-7fc9-4918-a567-6d0ae88760c5>, <https://data.vlaanderen.be/id/concept/organisatieclassificatie/cd5e6bba-d0d6-68cc-2e9e-8e4bd9a3ed07>, <https://data.vlaanderen.be/id/concept/organisatieclassificatie/e1222aec-b449-7c5e-c74a-eca22da38f1c> ;
+    <http://www.w3.org/ns/org#identifier> "OVO000093" ;
+    <http://www.w3.org/ns/regorg#orgStatus> <https://data.vlaanderen.be/id/concept/organisatiestatus/actief> ;
+    <http://xmlns.com/foaf/0.1/homepage> <https://www.vreg.be> .
+
+
+
+<https://data.vlaanderen.be/.well-known/genid/OVO003881-oprichting>
+    <http://mu.semte.ch/vocabularies/core/uuid> "OVO003881-oprichting" ;
+    <http://purl.org/dc/terms/date> "2000-02-04" ;
+    a <http://data.europa.eu/m8g/FoundationEvent>, <http://www.w3.org/ns/org#changeEvent>, <https://data.vlaanderen.be/ns/organisatie#Oprichting> .
+
+<https://data.vlaanderen.be/doc/organisatie/OVO003881>
+    <http://purl.org/dc/terms/issued> "2024-08-12T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://xmlns.com/foaf/0.1/primaryTopic> <https://data.vlaanderen.be/id/organisatie/OVO003881> .
+
+<https://data.vlaanderen.be/id/concept/organisatiestatus/actief>
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "actief" .
+
+<https://data.vlaanderen.be/id/organisatie/OVO003881>
+    <http://mu.semte.ch/vocabularies/core/uuid> "OVO003881" ;
+    a <http://www.w3.org/ns/org#Organization>, <http://xmlns.com/foaf/0.1/Agent> ;
+    <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://wegwijs.vlaanderen.be/#/organisations/549a3aa8-2330-78a6-9a05-c23b528a108f> ;
+    <http://www.w3.org/2004/02/skos/core#altLabel> "FAVV" ;
+    <http://www.w3.org/2004/02/skos/core#prefLabel> "Federaal Agentschap voor de Veiligheid van de Voedselketen" ;
+    <http://www.w3.org/ns/org#changedBy> <https://data.vlaanderen.be/.well-known/genid/OVO003881-oprichting> ;
+    <http://www.w3.org/ns/org#identifier> "OVO003881" ;
+    <http://www.w3.org/ns/regorg#orgStatus> <https://data.vlaanderen.be/id/concept/organisatiestatus/actief> ;
+    <http://xmlns.com/foaf/0.1/homepage> <https://favv-afsca.be/> .
+
