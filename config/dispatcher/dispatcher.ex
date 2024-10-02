@@ -12,6 +12,10 @@ defmodule Dispatcher do
   # Run `docker-compose restart dispatcher` after updating
   # this file.
 
+  match "/ai-search/question" do
+    forward conn, [], "http://ai-search/question"
+  end
+
   match "/formal-informal-choices/*path" do
     forward conn, path, "http://resource/formal-informal-choices/"
   end

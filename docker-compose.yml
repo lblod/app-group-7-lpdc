@@ -7,6 +7,12 @@ x-logging: &default-logging
     max-file: "50"
 
 services:
+  ai-search:
+    image: lblod/ai-search-service-group-7
+    environment:
+      WHOOSH_INDEX_PATH: "/data/index"
+    volumes:
+      - ./data/index:/data/index
   lpdc:
     image: lblod/frontend-lpdc-group-7
     environment:
