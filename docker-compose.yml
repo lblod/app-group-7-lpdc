@@ -7,6 +7,12 @@ x-logging: &default-logging
     max-file: "50"
 
 services:
+  # todo: set correct path
+  ai-annotator:
+    environment:
+      MODE: "development"
+    volumes:
+      - /home/my/code/my-python-service:/app
   lpdc:
     image: lblod/frontend-lpdc-group-7
     environment:
